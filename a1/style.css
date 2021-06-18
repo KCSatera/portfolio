@@ -1,0 +1,91 @@
+* {
+	padding: O;
+	margin: 0;
+	box-sizing: border-box;
+	
+
+}
+
+nav	{
+	padding: 50px;
+	font-family: 'Sanchez', serif;
+	font-size: x-large;
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.lead {
+	font-family: 'Sanchez', serif;
+	color: #d9d9d9;
+}
+
+.jumbotron {
+	height: 70vh;
+	background-color: #a40101;
+	font-family: 'Spartan', sans-serif;
+	color: #ffbd59;
+}
+
+.image {
+	margin-left: 200px;
+	height: 100px;
+	width: 50px;
+}
+
+.openBracket {
+	color: #d9d9d9;
+}
+
+.FullName {
+	color: #d9d9d9;
+}
+
+.closingBracket {
+	color: #d9d9d9;
+}
+
+.aboutMe {
+	font-size: 120px;
+	font-weight: bold;
+}
+
+h2	{
+	color: #d9d9d9; 
+	font-size: 100px;
+}
+
+.about2 {
+	margin-top: 40px;
+	font-size: 25px;
+	font-family: 'Sanchez', serif;
+	font-weight: bold;
+}
+
+.about1 {
+	font-size: 25px;
+	font-family: 'Sanchez', serif;
+	color: #a40101 ;
+}
+
+.about1 {
+	font-size: 25px;
+	font-family: 'Sanchez', serif;
+	color: #a40101 ;
+}
+
+.services {
+	font-family: 'Sanchez', serif;
+}
+
+.box {
+	height: 300px;
+	width: 400px;	
+	padding: 30px;
+	background-color: #a40101;
+	color: #d9d9d9; 
+}
+
+.head {
+	font-weight: bold;
+	margin-top: 20px;
+}
