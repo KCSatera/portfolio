@@ -2,75 +2,96 @@
 	padding: O;
 	margin: 0;
 	box-sizing: border-box;
-	
-
 }
 
 nav	{
-	padding: 50px;
 	font-family: 'Sanchez', serif;
 	font-size: x-large;
-	font-weight: bold;
-	margin-right: 50px;
+	font-weight: bold;	
 }
+
 
 .lead {
 	font-family: 'Sanchez', serif;
 	color: #d9d9d9;
+	font-size: 30px;
+	margin-left: 320px;
 }
 
 .jumbotron {
-	height: 70vh;
-	background-color: #a40101;
+	background-color: #BF4D28;
 	font-family: 'Spartan', sans-serif;
 	color: #ffbd59;
+	height: calc(100vh - 76px);
 }
 
-.image {
+.face {
+	margin-top: 100px;
 	margin-left: 200px;
-	height: 100px;
-	width: 50px;
+	max-width: 80%; 
+	height: auto
+}
+
+.description {
+	margin-left: 300px;
 }
 
 .openBracket {
 	color: #d9d9d9;
+	margin-left: 50px;
+	font-size: 80PX; 
 }
 
-.FullName {
-	color: #d9d9d9;
+.Krisha {
+	color: #EDDE45;
+	margin-left: 300px;
+	font-size: 150PX; 
+	text-shadow: 8px 8px #000000
+}
+
+.Camille {
+	color: #EDDE45;
+	margin-left: 300px;
+	font-size: 150PX; 
+	text-shadow: 8px 8px #000000
+}
+
+.Satera {
+	color: #EDDE45;
+	margin-left: 300px;
+	font-size: 150PX; 
+	text-shadow: 8px 8px #000000
 }
 
 .closingBracket {
 	color: #d9d9d9;
+	margin-left: 320px;
+	font-size: 80PX; 
 }
 
-.aboutMe {
-	font-size: 120px;
-	font-weight: bold;
+.socMed {
+	margin-top: 50px;
 }
 
-h2	{
-	color: #d9d9d9; 
-	font-size: 100px;
-}
-
-.about2 {
+.aboutMe1 {
 	margin-top: 40px;
-	font-size: 25px;
-	font-family: 'Sanchez', serif;
+}
+
+.titleName {
+	font-size: 70px;
 	font-weight: bold;
+	font-family: 'Sanchez', serif;
+	margin-top: 30px;
+	
 }
 
-.about1 {
-	font-size: 25px;
+.par {
+	display: inline-block;
 	font-family: 'Sanchez', serif;
-	color: #a40101 ;
-}
-
-.about1 {
-	font-size: 25px;
-	font-family: 'Sanchez', serif;
-	color: #a40101 ;
+	font-size: 30px;
+	margin-top: 30px;
+	text-align: justify;
+	margin-right: 150px;
 }
 
 .services {
@@ -78,14 +99,151 @@ h2	{
 }
 
 .box {
-	height: 300px;
+	height: 320px;
 	width: 400px;	
 	padding: 30px;
 	background-color: #a40101;
 	color: #d9d9d9; 
+	margin: 0 auto;
 }
 
 .head {
 	font-weight: bold;
 	margin-top: 20px;
+	font-size: 50px;
+}
+
+.des {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Sanchez', serif;
+}
+
+.jobDes {
+	font-size: 22px;
+	font-family: 'Sanchez', serif; 
+}
+
+
+	
+
+.two {
+	background-color: #E6AC27;
+}
+
+.three {
+	background-color: #F6F7BD;
+}
+
+.four {
+	background-color: #80BCA3;
+}
+
+.five {
+	background-color: #80BCA3;
+}
+
+.six {
+	background-color: #80BCA3;
+}
+
+.seven {
+	background-color: #EB7B59;
+}
+
+.tools {
+	margin-top: 50px
+}
+
+.codingTools {
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.projects {
+	font-size: 250px;
+	font-weight: bold;
+}
+
+.projectSec {
+	padding: 20px;
+	margin-top:  160px;
+}
+
+.number1 {
+	margin-left: 500px;
+}
+
+.car.border {
+	border-style: solid !important; 
+  	border-width: 10px !important;
+  	border-color: black !important; 
+}
+
+.last {
+	background-color: #EB7B59;
+}
+
+.form {
+	padding: 20px;
+	style: solid !important; 
+  	border-width: 10px !important;
+  	border-color: black !important; 
+}
+
+.btn {
+	style: solid !important; 
+  	border-width: 7px !important;
+  	border-color: black !important; 
+}
+
+.boxForm {
+	style: solid !important; 
+  	border-width: 7px !important;
+  	border-color: black !important; 
+}
+
+.text {
+	font-size: 30px;
+}
+
+.contactMe {
+	font-size: 70px ;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.map {
+	margin-top: 40px;
+	style: solid !important; 
+  	border-width: 7px !important;
+  	border-color: black !important; 
+}
+
+.footer {
+	display: inline;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+section {
+	height: 100vh;
+	
+}
+
+
+@media (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }
