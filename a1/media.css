@@ -1,0 +1,199 @@
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+@media (min-width: 768px){
+
+	/*.cols{
+
+		width: 100%;
+	}*/
+
+	.img1{
+		/*height: 300px;
+		width: 200px;*/
+	}
+
+	.description {
+		/*margin-left: 180px;*/
+		padding: 0;
+		margin-left: 20px;
+	}
+
+	.Krisha {
+		color: #EDDE45;
+	    /*margin-left: 150px;*/
+	    font-size: 100PX;
+	    text-shadow: 8px 8px #000000;
+	    padding: 0;
+		margin-left: 20px;
+	}
+
+	.Camille {
+		color: #EDDE45;
+	    /*margin-left: 150px;*/
+	    font-size: 100PX;
+	    text-shadow: 8px 8px #000000;
+	    padding: 0;
+		margin-left: 20px;
+	}
+
+	.Satera {
+		color: #EDDE45;
+	    /*margin-left: 150px;*/
+	    font-size: 100PX;
+	    text-shadow: 8px 8px #000000;
+	    padding: 0;
+		margin-left: 20px;
+	}
+
+	.openBracket {
+	    color: #d9d9d9;
+	    /*margin-left: 180px;*/
+	    font-size: 60PX;
+	    padding: 0;
+		margin-left: 20px;
+	}
+
+	.closingBracket {
+	    color: #d9d9d9;
+	    /*margin-left: 180px;*/
+	    font-size: 60PX;
+	    padding: 0;
+		margin-left: 20px;
+	}
+}
+
+@media(min-width: 992px){
+
+	.jumbotron {
+		padding-top: 15vh;
+	}
+	.description {
+		/*margin-left: 180px;*/
+		padding: 0;
+		margin-left: 20px;
+	}
+
+	.Krisha {
+		color: #EDDE45;
+	    /*margin-left: 150px;*/
+	    font-size: 100PX;
+	    text-shadow: 8px 8px #000000;
+	    padding: 0;
+		margin-left: 40px;
+	}
+
+	.Camille {
+		color: #EDDE45;
+	    /*margin-left: 150px;*/
+	    font-size: 100PX;
+	    text-shadow: 8px 8px #000000;
+	    padding: 0;
+		margin-left: 40px;
+	}
+
+	.Satera {
+		color: #EDDE45;
+	    /*margin-left: 150px;*/
+	    font-size: 100PX;
+	    text-shadow: 8px 8px #000000;
+	    padding: 0;
+		margin-left: 40px;
+	}
+
+	.openBracket {
+	    color: #d9d9d9;
+	    /*margin-left: 180px;*/
+	    font-size: 60PX;
+	    padding: 0;
+		margin: 0;
+	}
+
+	.closingBracket {
+	    color: #d9d9d9;
+	    /*margin-left: 180px;*/
+	    font-size: 60PX;
+	    padding: 0;
+		margin-left: 20px;
+	}
+}
+
+@media(min-width: 1200px){
+
+	.cols{
+
+	}
+
+	.jumbotron{
+		padding-top: 15vh;
+
+		}
+
+	.lead {
+	font-family: 'Sanchez', serif;
+	color: #d9d9d9;
+	font-size: 30px;
+	margin-left: 30px;
+}
+	
+
+		.description {
+			/*margin-left: 180px;*/
+			padding: 0;
+			margin-left: 60px;
+		}
+
+		.Krisha {
+			display: block;
+			color: #EDDE45;
+		    /*margin-left: 150px;*/
+		    font-size: 100PX;
+		    text-shadow: 8px 8px #000000;
+		    padding: 0;
+			margin-left: 100px;
+		}
+
+		.Camille {
+			display: block;
+			color: #EDDE45;
+		    /*margin-left: 150px;*/
+		    font-size: 100PX;
+		    text-shadow: 8px 8px #000000;
+		    padding: 0;
+			margin-left: 100px;
+		}
+
+		.Satera {
+			display: block;
+			color: #EDDE45;
+		    /*margin-left: 150px;*/
+		    font-size: 100PX;
+		    text-shadow: 8px 8px #000000;
+		    padding: 0;
+			margin-left: 100px;
+		}
+
+		.openBracket {
+		    color: #d9d9d9;
+		    /*margin-left: 180px;*/
+		    font-size: 60PX;
+		    padding: 0;
+			margin: 0;
+		}
+
+		.closingBracket {
+		    color: #d9d9d9;
+		    /*margin-left: 180px;*/
+		    font-size: 60PX;
+		    padding: 0;
+			margin-left: 20px;
+		}
+
+		.images {
+			height: 800px;
+			width: 800px;
+			
+		}
+}

@@ -1,4 +1,4 @@
-* {
+ * {
 	padding: O;
 	margin: 0;
 	box-sizing: border-box;
@@ -26,7 +26,14 @@ nav	{
 	background-color: #BF4D28;
 	font-family: 'Spartan', sans-serif;
 	color: #ffbd59;
-	height: calc(100vh - 76px);
+	padding-top: 10vh;
+	height: 85vh;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#id{
+	height: 100%;
 }
 
 #img2 { 
@@ -37,42 +44,52 @@ nav	{
 	width: 800px;
 }
 .face {
-	margin-top: 150px;
-	margin-left: 100px;
-	height: 800px;
-	width: 820px;
+	/*margin-top: 150px;
+	margin-left: 100px;*/
+	/*height: 800px;*/
+	/*width: 820px;*/
 
 }
-
+/*
+span{
+	display: inline-block;
+	padding-left: 80px;
+}
+*/
 .description {
-	margin-left: 500px;
+	/*margin-left: 500px;*/
+	padding-left: 80px;
 }
 
 .openBracket {
 	color: #d9d9d9;
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	font-size: 80PX; 
+
 }
 
 .Krisha {
 	color: #EDDE45;
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 	font-size: 150PX; 
-	text-shadow: 8px 8px #000000
+	text-shadow: 8px 8px #000000;
+	padding-left: 80px;
 }
 
 .Camille {
 	color: #EDDE45;
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 	font-size: 150PX; 
-	text-shadow: 8px 8px #000000
+	text-shadow: 8px 8px #000000;
+	padding-left: 80px;
 }
 
 .Satera {
 	color: #EDDE45;
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 	font-size: 150PX; 
-	text-shadow: 8px 8px #000000
+	text-shadow: 8px 8px #000000;
+	padding-left: 80px;
 }
 
 .closingBracket {
@@ -110,12 +127,12 @@ nav	{
 }
 
 .par {
-	display: inline-block;
+	/*display: inline-block;*/
 	font-family: 'Sanchez', serif;
 	font-size: 30px;
 	margin-top: 30px;
-	text-align: justify;
-	margin-right: 150px;
+	/*text-align: justify;*/
+	/*margin-right: 150px;*/
 }
 
 .services {
@@ -123,12 +140,12 @@ nav	{
 }
 
 .box {
-	height: 320px;
-	width: 400px;	
+	height: 60%;
+	/*width: 400px;	*/
 	padding: 30px;
 	background-color: #a40101;
 	color: #d9d9d9; 
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
 .head {
@@ -149,7 +166,7 @@ nav	{
 }
 
 
-	
+
 
 .two {
 	background-color: #E6AC27;
@@ -195,7 +212,7 @@ nav	{
 }
 
 .number1 {
-	margin-left: 500px;
+	/*margin-left: 500px;*/
 	height: 300px;
 	width: 300px;
 }
@@ -260,10 +277,10 @@ nav	{
 		font-family: 'Spartan', sans-serif;
 	}
 
-section {
+/*section {
 	height: 100vh;
 	
-}
+}*/
 
 
 @media screen and (max-width: 1440px) {
@@ -307,24 +324,24 @@ section {
 	}
 
 	.par {
-	    display: inline-block;
+	    /*display: inline-block;*/
 	    font-family: 'Sanchez', serif;
 	    font-size: 24px;
 	    margin-top: 30px;
-	    text-align: justify;
-	    margin-right: 150px;
+	    /*text-align: justify;*/
+	    /*margin-right: 150px;*/
 	}
 
 	.images {
-    margin-right: 40px;
+    /*margin-right: 40px;*/
     height: 650px;
     width: 650px;
 }
 
 	.face {
-	    margin-top: 190px;
-	    margin-left: 120px;
-	    max-width: 80%;
+	    /*margin-top: 190px;
+	    margin-left: 120px;*/
+	    /*max-width: 80%;*/
 	    height: auto;
 	}
 
@@ -336,18 +353,18 @@ section {
 	}
 
 	.par {
-	    display: inline-block;
+	    /*display: inline-block;*/
 	    font-family: 'Sanchez', serif;
 	    font-size: 18px;
 	    margin-top: 30px;
-	    text-align: justify;
-	    margin-right: 150px;
+	    /*text-align: justify;*/
+	    /*margin-right: 150px;*/
 	}
 
 	.rowSoc {
 		padding: 20px;
-		margin-left: 20px;
-		margin-right: 20px;
+		/*margin-left: 20px;
+		margin-right: 20px;*/
 	}
 
 	.projects {
@@ -384,14 +401,14 @@ section {
 		    display: flex;
 		    -ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
-		    margin-left: -15px;
+		    /*margin-left: -15px;*/
 		}
 
 		.images {
-			margin-right: 40px;
+			/*margin-right: 40px;*/
 			height: 400px;
 			width: 400px;
-			margin-top: 100px;
+			/*margin-top: 100px;*/
 		}
 
 
@@ -438,11 +455,11 @@ section {
 		    
 		}
 
-		.img1.col-6 {
+	/*	.img1.col-6 {
 			padding-right: 0px !important;
 			height: 500px !important;
 			width: 500px !important;
-		}
+		}*/
 
 		.titleName {
 		    font-size: 40px;
@@ -452,28 +469,28 @@ section {
 		}
 
 		.par {
-		    display: inline-block;
+		    /*display: inline-block;*/
 		    font-family: 'Sanchez', serif;
 		    font-size: 18px;
-		    margin-top: 30px;
+		    /*margin-top: 30px;
 		    text-align: justify;
-		    margin-right: 150px;
+		    margin-right: 150px;*/
 		}
 
 		.img-fluid {
 		    max-width: 100%;
 		    height: auto;
-		    margin-top: 30px;
+		    /*margin-top: 30px;*/
 		}
 		
 
 		.box {
-		    height: 320px;
-		    width: 250px;
+		    height: 60%;
+		    /*width: 250px;*/
 		    padding: 30px;
 		    background-color: #a40101;
 		    color: #d9d9d9;
-		    margin: 0 auto;
+		   	
 		}
 
 		.jobDes {
@@ -504,7 +521,7 @@ section {
 		.number1 {
 			height: 300px;
 			width: 300px;
-			margin-left: 200px;
+			/*margin-left: 200px;*/
 		}
 
 
@@ -537,10 +554,10 @@ section {
 		}
 
 		.images {
-			margin-right: 60px;
+			/*margin-right: 60px;*/
 			height: 425px;
 			width: 425px;
-			margin-top: 120px;
+			/*margin-top: 120px;*/
 		}
 
 
@@ -611,13 +628,13 @@ section {
 		}
 
 		.par {
-		    display: inline-block;
+		    /*display: inline-block;*/
 		    font-family: 'Sanchez', serif;
 		    font-size: 19px;
 		    margin-top: 30px;
-		    text-align: justify;
-		    margin-right: 100px;
-		    margin-left: 30px;
+		    /*text-align: justify;*/
+		    /*margin-right: 100px;
+		    margin-left: 30px;*/
 		}
 
 		.socMed {
@@ -632,12 +649,12 @@ section {
 		
 
 		.box {
-		    height: 360px;
-		    width: 220px;
+		    height: 60%;
+		    /*width: 220px;*/
 		    padding: 30px;
 		    background-color: #a40101;
 		    color: #d9d9d9;
-		    margin: 0 auto;
+		    /*margin: 0 auto;*/
 		}
 
 		.jobDes {
@@ -680,20 +697,20 @@ section {
 		.projects {
 		    font-size: 145px;
 		    font-weight: bold;
-		    margin-left: 30px;
+		    /*margin-left: 30px;*/
 		}
 
 		.number1 {
 			height: 250px;
 			width: 250px;
-			margin-left: 200px;
+			/*margin-left: 200px;*/
 		}
 
 	.car {
-		margin-top: 300px;
+		/*margin-top: 300px;
 		height: 200px;
 		width: 400px;
-		margin-right: 300px;
+		margin-right: 300px;*/
 	}
 
 	.car.border {
